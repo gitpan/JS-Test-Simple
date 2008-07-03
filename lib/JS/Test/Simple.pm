@@ -2,9 +2,11 @@ package JS::Test::Simple;
 
 use 5.006;
 
-our $VERSION = '0.23';
+our $VERSION = '0.24';
 
 1;
+
+=encoding utf8
 
 =head1 Name
 
@@ -160,12 +162,13 @@ JSUnit: elaborate xUnit-style testing framework.
 
 Idea by Tony Bowden and Paul Johnson. Original Perl implementation by Michael
 G Schwern <schwern@pobox.com>. JavaScript implementation by David Wheeler
-<david@kineticode.com>. Wardrobe by Calvin Klein.
+<david@kineticode.com>. JavaScript ported to CPAN by Ingy döt Net
+<ingy@ingy.net>. Wardrobe by Calvin Klein.
 
 =head1 Copyright
 
-Copyright 2001, 2002, 2004 by Michael G Schwern <schwern@pobox.com>, 2005 by
-David Wheeler.
+Copyright 2001, 2002, 2004 by Michael G Schwern <schwern@pobox.com>, 2005,
+2008 by David Wheeler.
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the Perl Artistic License or the GNU GPL.
