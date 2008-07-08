@@ -2,7 +2,7 @@ package JS::Test::Simple;
 
 use 5.006;
 
-our $VERSION = '0.24';
+our $VERSION = '0.25';
 
 1;
 
@@ -10,7 +10,7 @@ our $VERSION = '0.24';
 
 =head1 Name
 
-JS::Test::Simple - Basic utilities for writing JavaScript tests.
+Test.Simple - Basic utilities for writing JavaScript tests.
 
 =head1 Synopsis
 
