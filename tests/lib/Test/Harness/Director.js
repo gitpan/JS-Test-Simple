@@ -1,9 +1,9 @@
-// $Id: /mirror/openjsan/users/theory/Test.Simple/trunk/lib/Test/Harness/Director.js 1642 2008-07-03T08:20:55.797043Z ingy  $
+// $Id: /mirror/openjsan/users/theory/Test.Simple/trunk/lib/Test/Harness/Director.js 1942 2008-08-07T04:29:11.167550Z theory  $
 
 /*global Test, trace, output */
 
 Test.Harness.Director = function () {};
-Test.Harness.Director.VERSION = '0.25';
+Test.Harness.Director.VERSION = '0.26';
 
 Test.Harness.Director.runTests = function () {
     var harness = new Test.Harness.Director();
