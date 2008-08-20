@@ -1,4 +1,4 @@
-// $Id: /mirror/openjsan/users/theory/Test.Simple/trunk/lib/Test/Simple.js 1942 2008-08-07T04:29:11.167550Z theory  $
+// $Id: /mirror/openjsan/users/theory/Test.Simple/trunk/lib/Test/Simple.js 1950 2008-08-20T06:40:51.750920Z ingy  $
 
 /*global JSAN, Test */
 
@@ -15,7 +15,7 @@ else {
 Test.Simple = {};
 Test.Simple.EXPORT      = ['plan', 'ok'];
 Test.Simple.EXPORT_TAGS = { ':all': Test.Simple.EXPORT };
-Test.Simple.VERSION     = '0.26';
+Test.Simple.VERSION     = '0.27';
 
 Test.Simple.plan = function (cmds) {
     return Test.Simple.Test.plan(cmds);

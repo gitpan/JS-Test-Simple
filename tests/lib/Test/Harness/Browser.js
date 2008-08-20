@@ -1,4 +1,4 @@
-// $Id: /mirror/openjsan/users/theory/Test.Simple/trunk/lib/Test/Harness/Browser.js 1942 2008-08-07T04:29:11.167550Z theory  $
+// $Id: /mirror/openjsan/users/theory/Test.Simple/trunk/lib/Test/Harness/Browser.js 1950 2008-08-20T06:40:51.750920Z ingy  $
 
 /*global JSAN, Test, ActiveXObject */
 
@@ -74,7 +74,7 @@ if (window.parent != window &&
         this.includes.push('');
     };
 
-    Test.Harness.Browser.VERSION = '0.26';
+    Test.Harness.Browser.VERSION = '0.27';
 
     Test.Harness.Browser.runTests = function () {
         var harness = new Test.Harness.Browser();
@@ -113,7 +113,7 @@ if (window.parent != window &&
             // Trailing space added and replaced to work around yet another
             // Safari bug.
             node.innerHTML = node.innerHTML.replace(
-                / ?(\w[\w\.]+?\w)(?=\.\.\.)/m, '<a href="$1">$1</a>'
+                / ?(\w[\w\.\-]+?\w)(?=\.\.\.)/m, '<a href="$1">$1</a>'
             ) + ' ';
         };
         return {
