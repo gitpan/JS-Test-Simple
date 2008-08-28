@@ -17,4 +17,4 @@ no_index:
 requires:
   JS: 0.15
   perl: 5.6.0
-version: 0.27
+version: 0.28
